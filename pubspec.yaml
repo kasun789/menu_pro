@@ -18,3 +18,16 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/connies.png
+    - assets/images/menuproicondarktheam.png
+    - assets/images/menuproiconlighttheam.png
+    - assets/images/line.png
+    - assets/images/united-kingdom.png
+    - assets/images/united-states.png
+   
+  fonts:
+    - family: GothomProBlack
+      fonts:
+        - asset: assets/fonts/GothamPro-Black.ttf
+    
