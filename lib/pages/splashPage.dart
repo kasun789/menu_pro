@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/widgets.dart';
+import 'package:menupro/main.dart';
 import 'package:menupro/pages/languageScreen.dart';
 
 class SplashPage extends StatefulWidget {
@@ -17,7 +18,7 @@ class SplashPage extends StatefulWidget {
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersive);
     Future.delayed(const Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => LangageScreen()));
+        MaterialPageRoute(builder: (_) => LanguageScreen()));
     });
   }
 
@@ -27,7 +28,7 @@ class SplashPage extends StatefulWidget {
     overlays: SystemUiOverlay.values
     );
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

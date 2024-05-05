@@ -23,6 +23,8 @@ flutter:
     - assets/images/menuproicondarktheam.png
     - assets/images/menuproiconlighttheam.png
     - assets/images/line.png
+    - assets/images/united-kingdom.png
+    - assets/images/united-states.png
    
   fonts:
     - family: GothomProBlack
